@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(12, GPIO.OUT)
+GPIO.setup(22, GPIO.OUT)
 
-GPIO.output(12, 0)
+GPIO.output(22, 0)
